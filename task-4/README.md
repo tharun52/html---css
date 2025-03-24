@@ -1,17 +1,18 @@
-### **CSS Card Component with Hover Effects**  
+# Pure CSS Dropdown Menu  
 
-#### **Overview**  
-This project creates a **responsive CSS card component** displaying video game characters. Each card contains an **image, title, and description**, with interactive hover effects.  
+## Overview  
+This project features a **navigation bar with a dropdown submenu** created purely with HTML and CSS. The dropdown menu appears when hovering over the "Characters" option, ensuring a smooth and visually appealing user experience.  
 
-#### **Features**  
-- **Styled card design** with **borders, shadows, and padding**.  
-- **Smooth hover effect** that changes background color and increases shadow depth.  
-- **Grid-based layout** for arranging multiple cards.  
+## Features  
+- **Dropdown menu using only CSS** (without JavaScript).  
+- **Smooth reveal effect** using CSS `:hover` and transitions.  
+- **Nested `<ul>` elements** for structured navigation.  
+- **Responsive design** with a mobile-friendly fallback.  
+- **Card-based layout** displaying video game characters.  
 
-#### **Technologies Used**  
-- **HTML** for structure  
-- **CSS** for styling and effects  
+## Technologies Used  
+- **HTML** for page structure.  
+- **CSS** for styling, animations, and responsiveness.  
 
-#### **Output Preview**  
-Check `output.png` for the expected design.
-![Output Screenshot](output.png)  
+## Output  
+![Output Preview](output.png)  
