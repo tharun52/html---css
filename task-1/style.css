@@ -1,0 +1,42 @@
+nav {
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    padding: 20px;  
+    margin: 0;
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+    flex-direction: column;
+    font-size: large;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+p{
+    display: flex;
+    margin: 20px;;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background: #4f4e4e;
+}
+*{
+    font-family: sans-serif;
+}
