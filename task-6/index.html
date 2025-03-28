@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-heading">Task 6</a>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a>Characters ▼</a>
+            <ul class="submenu">
+                <li><a href="jinsakai.html">Jin Sakai</a></li>
+                <li><a href="joel.html">Joel Miller</a></li>
+                <li><a href="spiderman.html">Spiderman</a></li>
+            </ul>
+        </li>
+    </nav>
+
+    <h1>Video Game characters</h1>
+    
+    <!-- Tabs Section -->
+    <div class="tabs">
+        <!-- Radio Buttons (Hidden) -->
+        <input type="radio" id="tab1" name="tab-group" checked>
+        <input type="radio" id="tab2" name="tab-group">
+        <input type="radio" id="tab3" name="tab-group">
+
+        <!-- Tab Labels -->
+        <div class="tab-labels">
+            <label for="tab1" class="tab">Tab 1</label>
+            <label for="tab2" class="tab">Tab 2</label>
+            <label for="tab3" class="tab">Tab 3</label>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+            
+            <!-- Tab 1 Content -->
+            <div class="content" id="content1">
+                <div class="card">
+                    <a href="jinsakai.html">
+                        <img src="../images/jinsakai.jpg" alt="Jin Sakai">
+                        <div class="container">
+                            <h4>Jin Sakai</h4>
+                            <p>A noble samurai</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Tab 2 Content -->
+            <div class="content" id="content2">
+                <div class="card">
+                    <a href="joel.html">
+                        <img src="../images/joel.jpg" alt="Joel">
+                        <div class="container">
+                            <h4>Joel Miller</h4>
+                            <p>A loving father</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Tab 3 Content -->
+            <div class="content" id="content3">
+                <div class="card">
+                    <a href="spiderman.html">
+                        <img src="../images/spiderman.jpg" alt="spiderman">
+                        <div class="container">
+                            <h4>Peter Parker</h4>
+                            <p>Friendly neighbourhood Spidey</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <a href="#modal" class="open-modal">Open Modal</a>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome!</h2>
+            <p>This is a modal popup using the :target pseudo-class.</p>
+            <a href="#" class="close-btn">Close</a>
+        </div>
+    </div>
+
+
+    <footer>Video game characters</footer>
+</body>
+</html>
