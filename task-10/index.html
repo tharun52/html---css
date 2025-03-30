@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Game Characters Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <a href="#home" class="navbar-heading">Video Game Characters</a>
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="toggle-label">&#9776;</label>
+    <ul class="nav-menu">
+      <li><a href="#jin">Jin Sakai</a></li>
+      <li><a href="#joel">Joel Miller</a></li>
+      <li><a href="#spider">Spiderman</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Container -->
+  <div class="page-container">
+    <!-- Home (Default) Section -->
+    <section id="home" class="page default">
+      <h1>Welcome to Video Game Characters</h1>
+      <p>Select a character from the menu or click on a card below to learn more.</p>
+      <div class="grid-container">
+        <div class="card">
+          <a href="#jin">
+            <img src="../images/jinsakai.jpg" alt="Jin Sakai">
+            <div class="card-info">
+              <h4>Jin Sakai</h4>
+              <p>Noble Samurai</p>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#joel">
+            <img src="../images/joel.jpg" alt="Joel Miller">
+            <div class="card-info">
+              <h4>Joel Miller</h4>
+              <p>A Loving Father</p>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#spider">
+            <img src="../images/spiderman.jpg" alt="Spiderman">
+            <div class="card-info">
+              <h4>Peter Parker</h4>
+              <p>Friendly Neighborhood Spidey</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jin Sakai Section -->
+    <section id="jin" class="page">
+      <h1>Jin Sakai</h1>
+      <img class="detail-img" src="../images/jinsakai.jpg" alt="Jin Sakai">
+      <p>Jin Sakai is the main protagonist of Ghost of Tsushima—a noble samurai defending his homeland.</p>
+      <a href="#home" class="back">Back to Home</a>
+    </section>
+
+    <!-- Joel Miller Section -->
+    <section id="joel" class="page">
+      <h1>Joel Miller</h1>
+      <img class="detail-img" src="../images/joel.jpg" alt="Joel Miller">
+      <p>Joel Miller is a central character from The Last of Us, noted for his complex personality and emotional depth.</p>
+      <a href="#home" class="back">Back to Home</a>
+    </section>
+
+    <!-- Spiderman Section -->
+    <section id="spider" class="page">
+      <h1>Spiderman</h1>
+      <img class="detail-img" src="../images/spiderman.jpg" alt="Spiderman">
+      <p>Peter Parker, known as Spiderman, is the friendly neighborhood hero who balances everyday life with crime-fighting.</p>
+      <a href="#home" class="back">Back to Home</a>
+    </section>
+  </div>
+
+  <footer>Video Game Characters © 2025</footer>
+</body>
+</html>
